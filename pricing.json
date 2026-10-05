@@ -1,1 +1,21 @@
-{"plans":[{"name":"Free","overage":null,"price_monthly_usd":0,"quota":"100 queries/day"},{"name":"Pro","overage":null,"price_monthly_usd":9,"quota":"unlimited"}],"x402":{"applies_to":[],"enabled":false,"price_usdc_per_call":null}}
+{
+  "plans": [
+    {
+      "name": "Free",
+      "price_monthly_usd": 0,
+      "quota": "100 requests/month",
+      "overage": null
+    },
+    {
+      "name": "Pro",
+      "price_monthly_usd": 9,
+      "quota": "100,000 requests/month",
+      "overage": null
+    }
+  ],
+  "x402": {
+    "applies_to": [],
+    "enabled": false,
+    "price_usdc_per_call": null
+  }
+}
